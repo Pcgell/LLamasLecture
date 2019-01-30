@@ -9,8 +9,10 @@ public class Main {
     //funcion o metodo estatico que recibe argumentos por linea de comando y
     // es el punto de partida de todos los programas
     public static void main(String[] args) {
-        sumaEnteros(4,5);
-        new Main().repasoVariables();
+
+        Arreglos.arreglos();
+        //sumaEnteros(4,5);
+        //new Main().repasoVariables();
 	// write your code here
     }
 
