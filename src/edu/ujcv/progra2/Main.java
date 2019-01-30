@@ -58,6 +58,12 @@ public class Main {
 
     public  Main(){
 
+        Bar bar = new Bar();
 
+        bar.presentFoo();
+
+        bar.getM_foo().setMensaje("Un mensaje sobre escrito!");
+
+        bar.presentFoo();
     }
 }
