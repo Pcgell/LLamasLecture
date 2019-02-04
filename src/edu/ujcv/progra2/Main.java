@@ -10,7 +10,18 @@ public class Main {
     // es el punto de partida de todos los programas
     public static void main(String[] args) {
 
-        Arreglos.arreglos();
+        CsvReader csvReader = new CsvReader();
+        int[] results = csvReader.getResults();
+
+        for (int i = 0; i < results.length; i++) {
+            System.out.print(results[i]+", " );
+        }
+
+
+        //
+        //
+        //
+        // Arreglos.arreglos();
         //sumaEnteros(4,5);
         //new Main().repasoVariables();
 	// write your code here
